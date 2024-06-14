@@ -10,6 +10,7 @@ public class SendOtpEmailApplication {
 		SpringApplication.run(SendOtpEmailApplication.class, args);
 		
 		System.out.println("update");
+		System.out.println("newupdate");
 	}
 
 }
