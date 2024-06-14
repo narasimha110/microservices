@@ -8,6 +8,8 @@ public class SendOtpEmailApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SendOtpEmailApplication.class, args);
+		
+		System.out.println("update");
 	}
 
 }
