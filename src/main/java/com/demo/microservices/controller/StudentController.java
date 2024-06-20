@@ -58,6 +58,7 @@ public class StudentController {
         String email = loginRequest.getEmail();
         String password = loginRequest.getPassword();
         return studentService.login(email, password);
+        
     }
     
     @PostMapping("/send-otp")
